@@ -35,9 +35,13 @@ body {
 	font-weight: bold;
 	text-indent: 4em;
 }
+.nav .caret {
+	border-top-color:black;
+	border-bottom-color:black;
+}
 #navigation .main {
 	width: 200px;
-	background-color: rgba(0,0,220, 1.0);
+	background-color: rgba(0,160,20, 1.0);
 	color: rgb(255,255,255);
 	font-weight: bold;
 	font-size: 19px;
