@@ -8,6 +8,9 @@ body {
 	background-repeat: no-repeat;
 	background-height: 50px;
 }
+.spacer {
+	height: 50px;
+}
 .side-logo {
 	font-family: "Euphoria Script";
 	color: white;
@@ -60,8 +63,18 @@ body {
 	padding: 10px;
 	border:2px solid black;
 }
-footer {
+.footer {
 	position: static;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+	background-color: black;
+	height: 30px;
+	color: white;
+	padding-top: 4px;
+}
+.footer-special {
+	position: fixed;
 	bottom: 0;
 	text-align: center;
 	width: 100%;
