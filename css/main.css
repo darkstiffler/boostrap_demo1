@@ -17,6 +17,11 @@ body {
 .bio {
 	margin: 30px;
 	font-size: 20px;
+	background-color: rgba(255,255,255, .59);
+	padding: 20px;
+	color: black;
+	border-radius: 10px;
+	font-weight: bold;
 	text-indent: 4em;
 }
 #navigation .main {
