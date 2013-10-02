@@ -8,17 +8,25 @@ body {
 	background-repeat: no-repeat;
 	background-height: 50px;
 }
+.side-logo {
+	font-family: "Euphoria Script";
+	color: white;
+	font-size: 40px;
+	margin: 10px;
+}
 #navigation {
+	position: fixed;
+	top: 0;
 	height: 70px;
-	widows: 100%;
+	width: 100%;
 	box-shadow: 70px 0 40px black;
 	background-color: rgb(30,30,30);
 }
 .bio {
-	margin: 30px;
+	margin: 0 30px 50px 30px;
 	font-size: 20px;
-	background-color: rgba(255,255,255, .59);
-	padding: 20px;
+	background-color: rgba(240,240,240, .7);
+	padding: 30px;
 	color: black;
 	border-radius: 10px;
 	font-weight: bold;
@@ -32,13 +40,9 @@ body {
 	margin-top: 10px;
 	margin-right: 20px;
 }
-.title {
-	font-family: "Euphoria Script";
-	font-size: 90px;
-}
 .images {
 	height: 600px;
-	margin: 10px auto;
+	margin: 0 auto;
 	overflow: scroll;
 	width: 600px;
 	border: 2px solid black;
@@ -47,13 +51,26 @@ body {
 	font-family: "Euphoria Script";
 	font-size: 100px;
 	color: rgb(10,10,10);
-	margin: 25px auto;
-	width: 525px;
+	text-align: center;
 }
 #main-slider {
-	width: 60%;
-	height: 500px;
-	margin: 20px auto;
+	width: 500px;
+	height: 370px;
+	margin: 0 auto;
 	padding: 10px;
 	border:2px solid black;
 }
+footer {
+	position: static;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+	background-color: black;
+	height: 30px;
+	color: white;
+	padding-top: 4px;
+}
+
+
+
+
