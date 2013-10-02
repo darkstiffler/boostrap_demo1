@@ -36,6 +36,7 @@ body {
 	text-indent: 4em;
 }
 #navigation .main {
+	width: 200px;
 	background-color: rgba(0,0,220, 1.0);
 	color: rgb(255,255,255);
 	font-weight: bold;
