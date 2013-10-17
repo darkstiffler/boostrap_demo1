@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bootstrap3 Demo|Home</title>
+	<!-- insures zoom / display compatability with mobile/pads -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- jquery CDN loading in -->
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+	<!-- javascript / bootstrap script links -->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
+	<!-- links to bootstrap3 css / main css -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	
+
+	<!-- Start WOWSlider.com HEAD section -->
+		<link rel="stylesheet" type="text/css" href="engine1//style.css" media="screen" />
+		<script type="text/javascript" src="engine1//jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section -->
+
+
+
+	<!-- Start WOWSlider.com HEAD section -->
+		<link rel="stylesheet" type="text/css" href="engine1//style.css" media="screen" />
+		<script type="text/javascript" src="engine1//jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section -->
+
+</head>
+<body>
+	<div id="navigation">
+		<a href="index.html"><p class="side-logo pull-left">Carmen's Art</p></a>
+		<a href="gallery.html" class="view-gallery pull-left btn btn-lg btn-primary">View Gallery</a>
+		<ul class="nav nav-pills pull-right">
+		  <li class="dropdown">
+		    <a class="main dropdown-toggle" data-toggle="dropdown" href="#">
+		      More  <span class="caret"></span>
+		    </a>
+		    <ul class="dropdown-menu">
+		    	<li><a href="contact.html">Contact</a></li>
+		    	<li><a href="bio.html">Biography</a></li>
+		    	<li><a href="gallery.html">Full Gallery</a></li>	    	
+		    </ul>
+		  </li>
+		</ul>
+	</div>
+	<div class="spacer"></div>
+	<div class="logo">
+		<h1>Welcome</h1>
+	</div>
+	<div id="slider"></div>
+	<div class="footer-special">
+		<p>This is a custom built site by <a href="http://egsd.co">EGSD</a>&copy; 2013 All rights reserved.</p>
+	</div>
+</body>
+</html>

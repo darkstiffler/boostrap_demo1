@@ -4,18 +4,15 @@
  */
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro&subset=latin,latin-ext");
 #wowslider-container1 { 
-	padding: 54px;
-	background-color: rgba(0,0,0, 0.7);
-	border-radius: 10px;
 	zoom: 1; 
-	position: relative;
-	max-width:480px;
+	position: relative; 
+	max-width:640px;
 	margin:0px auto 0px;
 	z-index:90;
-	border:none;
+	border:2px solid #FFFFFF;
 	text-align:left; /* reset align=center */
 }
-* html #wowslider-container1{ width:480px }
+* html #wowslider-container1{ width:640px }
 #wowslider-container1 .ws_images ul{
 	position:relative;
 	width: 10000%; 
@@ -48,7 +45,6 @@
 #wowslider-container1 .ws_images a{
 	width:100%;
 	display:block;
-	visibility: hidden;
 	color:transparent;
 }
 #wowslider-container1 img{
@@ -185,17 +181,12 @@
 	padding-top:5px;
 	font-size: 25px;
 }
-#wowslider-container1  .ws_logo{
-	position: absolute;
-	left:0;
-	top:0;
-	height: 100%;
-	width: 100%;
-	z-index: 9;
-	background: url(./loading.gif) 50% 50% no-repeat;
+#wowslider-container1 .ws_images ul{
+	animation: wsBasic 202.5s infinite;
+	-moz-animation: wsBasic 202.5s infinite;
+	-webkit-animation: wsBasic 202.5s infinite;
 }
-#wowslider-container1  img.loading{
-	width:64px;
-	height:48px;
-	background: url(./loading.gif) 50% 50% no-repeat;
-}
+@keyframes wsBasic{0%{left:-0%} 2.32%{left:-0%} 4%{left:-100%} 6.32%{left:-100%} 8%{left:-200%} 10.32%{left:-200%} 12%{left:-300%} 14.32%{left:-300%} 16%{left:-400%} 18.32%{left:-400%} 20%{left:-500%} 22.32%{left:-500%} 24%{left:-600%} 26.32%{left:-600%} 28%{left:-700%} 30.32%{left:-700%} 32%{left:-800%} 34.32%{left:-800%} 36%{left:-900%} 38.32%{left:-900%} 40%{left:-1000%} 42.32%{left:-1000%} 44%{left:-1100%} 46.32%{left:-1100%} 48%{left:-1200%} 50.32%{left:-1200%} 52%{left:-1300%} 54.32%{left:-1300%} 56%{left:-1400%} 58.32%{left:-1400%} 60%{left:-1500%} 62.32%{left:-1500%} 64%{left:-1600%} 66.32%{left:-1600%} 68%{left:-1700%} 70.32%{left:-1700%} 72%{left:-1800%} 74.32%{left:-1800%} 76%{left:-1900%} 78.32%{left:-1900%} 80%{left:-2000%} 82.32%{left:-2000%} 84%{left:-2100%} 86.32%{left:-2100%} 88%{left:-2200%} 90.32%{left:-2200%} 92%{left:-2300%} 94.32%{left:-2300%} 96%{left:-2400%} 98.32%{left:-2400%} }
+@-moz-keyframes wsBasic{0%{left:-0%} 2.32%{left:-0%} 4%{left:-100%} 6.32%{left:-100%} 8%{left:-200%} 10.32%{left:-200%} 12%{left:-300%} 14.32%{left:-300%} 16%{left:-400%} 18.32%{left:-400%} 20%{left:-500%} 22.32%{left:-500%} 24%{left:-600%} 26.32%{left:-600%} 28%{left:-700%} 30.32%{left:-700%} 32%{left:-800%} 34.32%{left:-800%} 36%{left:-900%} 38.32%{left:-900%} 40%{left:-1000%} 42.32%{left:-1000%} 44%{left:-1100%} 46.32%{left:-1100%} 48%{left:-1200%} 50.32%{left:-1200%} 52%{left:-1300%} 54.32%{left:-1300%} 56%{left:-1400%} 58.32%{left:-1400%} 60%{left:-1500%} 62.32%{left:-1500%} 64%{left:-1600%} 66.32%{left:-1600%} 68%{left:-1700%} 70.32%{left:-1700%} 72%{left:-1800%} 74.32%{left:-1800%} 76%{left:-1900%} 78.32%{left:-1900%} 80%{left:-2000%} 82.32%{left:-2000%} 84%{left:-2100%} 86.32%{left:-2100%} 88%{left:-2200%} 90.32%{left:-2200%} 92%{left:-2300%} 94.32%{left:-2300%} 96%{left:-2400%} 98.32%{left:-2400%} }
+@-webkit-keyframes wsBasic{0%{left:-0%} 2.32%{left:-0%} 4%{left:-100%} 6.32%{left:-100%} 8%{left:-200%} 10.32%{left:-200%} 12%{left:-300%} 14.32%{left:-300%} 16%{left:-400%} 18.32%{left:-400%} 20%{left:-500%} 22.32%{left:-500%} 24%{left:-600%} 26.32%{left:-600%} 28%{left:-700%} 30.32%{left:-700%} 32%{left:-800%} 34.32%{left:-800%} 36%{left:-900%} 38.32%{left:-900%} 40%{left:-1000%} 42.32%{left:-1000%} 44%{left:-1100%} 46.32%{left:-1100%} 48%{left:-1200%} 50.32%{left:-1200%} 52%{left:-1300%} 54.32%{left:-1300%} 56%{left:-1400%} 58.32%{left:-1400%} 60%{left:-1500%} 62.32%{left:-1500%} 64%{left:-1600%} 66.32%{left:-1600%} 68%{left:-1700%} 70.32%{left:-1700%} 72%{left:-1800%} 74.32%{left:-1800%} 76%{left:-1900%} 78.32%{left:-1900%} 80%{left:-2000%} 82.32%{left:-2000%} 84%{left:-2100%} 86.32%{left:-2100%} 88%{left:-2200%} 90.32%{left:-2200%} 92%{left:-2300%} 94.32%{left:-2300%} 96%{left:-2400%} 98.32%{left:-2400%} }
+
