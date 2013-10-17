@@ -8,8 +8,11 @@
 	position: relative; 
 	max-width:640px;
 	margin:0px auto 0px;
+	border-radius: 20px;
+	padding: 53px;
+	background-color: rgba(0,0,0,0.65);
 	z-index:90;
-	border:2px solid #FFFFFF;
+	border:2px solid green;
 	text-align:left; /* reset align=center */
 }
 * html #wowslider-container1{ width:640px }
@@ -56,9 +59,10 @@
 	max-width: none;
 	padding:0;
 }
-#wowslider-container1 a{ 
+#wowslider-container1 a { 
 	text-decoration: none; 
 	outline: none; 
+	visibility: hidden;
 	border: none; 
 }
 
