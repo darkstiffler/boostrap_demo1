@@ -8,6 +8,9 @@ body {
 	background-repeat: no-repeat;
 	background-height: 50px;
 }
+.contact-form {
+	margin: 30px;
+}
 .view-gallery {
 	position: relative;
 	top: 15px;
