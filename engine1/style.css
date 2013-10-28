@@ -7,10 +7,13 @@
 	zoom: 1; 
 	position: relative; 
 	max-width:640px;
-	margin:0px auto 0px;
+	margin: auto;
+	padding: 52px;
+	background-color: rgba(0,0,0,0.75);
+	border-radius: 10px;
 	z-index:90;
 	border:none;
-	text-align:left; /* reset align=center */
+	text-align: center; /* reset align=center */
 }
 * html #wowslider-container1{ width:640px }
 #wowslider-container1 .ws_images ul{
