@@ -8,11 +8,8 @@
 	position: relative; 
 	max-width:640px;
 	margin:0px auto 0px;
-	border-radius: 20px;
-	padding: 53px;
-	background-color: rgba(0,0,0,0.65);
 	z-index:90;
-	border:2px solid green;
+	border:none;
 	text-align:left; /* reset align=center */
 }
 * html #wowslider-container1{ width:640px }
@@ -59,7 +56,7 @@
 	max-width: none;
 	padding:0;
 }
-#wowslider-container1 a { 
+#wowslider-container1 a{ 
 	text-decoration: none; 
 	outline: none; 
 	border: none; 
@@ -185,11 +182,55 @@
 	font-size: 25px;
 }
 #wowslider-container1 .ws_images ul{
-	animation: wsBasic 202.5s infinite;
-	-moz-animation: wsBasic 202.5s infinite;
-	-webkit-animation: wsBasic 202.5s infinite;
+	animation: wsBasic 112.5s infinite;
+	-moz-animation: wsBasic 112.5s infinite;
+	-webkit-animation: wsBasic 112.5s infinite;
 }
-@keyframes wsBasic{0%{left:-0%} 2.32%{left:-0%} 4%{left:-100%} 6.32%{left:-100%} 8%{left:-200%} 10.32%{left:-200%} 12%{left:-300%} 14.32%{left:-300%} 16%{left:-400%} 18.32%{left:-400%} 20%{left:-500%} 22.32%{left:-500%} 24%{left:-600%} 26.32%{left:-600%} 28%{left:-700%} 30.32%{left:-700%} 32%{left:-800%} 34.32%{left:-800%} 36%{left:-900%} 38.32%{left:-900%} 40%{left:-1000%} 42.32%{left:-1000%} 44%{left:-1100%} 46.32%{left:-1100%} 48%{left:-1200%} 50.32%{left:-1200%} 52%{left:-1300%} 54.32%{left:-1300%} 56%{left:-1400%} 58.32%{left:-1400%} 60%{left:-1500%} 62.32%{left:-1500%} 64%{left:-1600%} 66.32%{left:-1600%} 68%{left:-1700%} 70.32%{left:-1700%} 72%{left:-1800%} 74.32%{left:-1800%} 76%{left:-1900%} 78.32%{left:-1900%} 80%{left:-2000%} 82.32%{left:-2000%} 84%{left:-2100%} 86.32%{left:-2100%} 88%{left:-2200%} 90.32%{left:-2200%} 92%{left:-2300%} 94.32%{left:-2300%} 96%{left:-2400%} 98.32%{left:-2400%} }
-@-moz-keyframes wsBasic{0%{left:-0%} 2.32%{left:-0%} 4%{left:-100%} 6.32%{left:-100%} 8%{left:-200%} 10.32%{left:-200%} 12%{left:-300%} 14.32%{left:-300%} 16%{left:-400%} 18.32%{left:-400%} 20%{left:-500%} 22.32%{left:-500%} 24%{left:-600%} 26.32%{left:-600%} 28%{left:-700%} 30.32%{left:-700%} 32%{left:-800%} 34.32%{left:-800%} 36%{left:-900%} 38.32%{left:-900%} 40%{left:-1000%} 42.32%{left:-1000%} 44%{left:-1100%} 46.32%{left:-1100%} 48%{left:-1200%} 50.32%{left:-1200%} 52%{left:-1300%} 54.32%{left:-1300%} 56%{left:-1400%} 58.32%{left:-1400%} 60%{left:-1500%} 62.32%{left:-1500%} 64%{left:-1600%} 66.32%{left:-1600%} 68%{left:-1700%} 70.32%{left:-1700%} 72%{left:-1800%} 74.32%{left:-1800%} 76%{left:-1900%} 78.32%{left:-1900%} 80%{left:-2000%} 82.32%{left:-2000%} 84%{left:-2100%} 86.32%{left:-2100%} 88%{left:-2200%} 90.32%{left:-2200%} 92%{left:-2300%} 94.32%{left:-2300%} 96%{left:-2400%} 98.32%{left:-2400%} }
-@-webkit-keyframes wsBasic{0%{left:-0%} 2.32%{left:-0%} 4%{left:-100%} 6.32%{left:-100%} 8%{left:-200%} 10.32%{left:-200%} 12%{left:-300%} 14.32%{left:-300%} 16%{left:-400%} 18.32%{left:-400%} 20%{left:-500%} 22.32%{left:-500%} 24%{left:-600%} 26.32%{left:-600%} 28%{left:-700%} 30.32%{left:-700%} 32%{left:-800%} 34.32%{left:-800%} 36%{left:-900%} 38.32%{left:-900%} 40%{left:-1000%} 42.32%{left:-1000%} 44%{left:-1100%} 46.32%{left:-1100%} 48%{left:-1200%} 50.32%{left:-1200%} 52%{left:-1300%} 54.32%{left:-1300%} 56%{left:-1400%} 58.32%{left:-1400%} 60%{left:-1500%} 62.32%{left:-1500%} 64%{left:-1600%} 66.32%{left:-1600%} 68%{left:-1700%} 70.32%{left:-1700%} 72%{left:-1800%} 74.32%{left:-1800%} 76%{left:-1900%} 78.32%{left:-1900%} 80%{left:-2000%} 82.32%{left:-2000%} 84%{left:-2100%} 86.32%{left:-2100%} 88%{left:-2200%} 90.32%{left:-2200%} 92%{left:-2300%} 94.32%{left:-2300%} 96%{left:-2400%} 98.32%{left:-2400%} }
+@keyframes wsBasic{0%{left:-0%} 4.44%{left:-0%} 6.67%{left:-100%} 11.11%{left:-100%} 13.33%{left:-200%} 17.78%{left:-200%} 20%{left:-300%} 24.44%{left:-300%} 26.67%{left:-400%} 31.11%{left:-400%} 33.33%{left:-500%} 37.78%{left:-500%} 40%{left:-600%} 44.44%{left:-600%} 46.67%{left:-700%} 51.11%{left:-700%} 53.33%{left:-800%} 57.78%{left:-800%} 60%{left:-900%} 64.44%{left:-900%} 66.67%{left:-1000%} 71.11%{left:-1000%} 73.33%{left:-1100%} 77.78%{left:-1100%} 80%{left:-1200%} 84.44%{left:-1200%} 86.67%{left:-1300%} 91.11%{left:-1300%} 93.33%{left:-1400%} 97.78%{left:-1400%} }
+@-moz-keyframes wsBasic{0%{left:-0%} 4.44%{left:-0%} 6.67%{left:-100%} 11.11%{left:-100%} 13.33%{left:-200%} 17.78%{left:-200%} 20%{left:-300%} 24.44%{left:-300%} 26.67%{left:-400%} 31.11%{left:-400%} 33.33%{left:-500%} 37.78%{left:-500%} 40%{left:-600%} 44.44%{left:-600%} 46.67%{left:-700%} 51.11%{left:-700%} 53.33%{left:-800%} 57.78%{left:-800%} 60%{left:-900%} 64.44%{left:-900%} 66.67%{left:-1000%} 71.11%{left:-1000%} 73.33%{left:-1100%} 77.78%{left:-1100%} 80%{left:-1200%} 84.44%{left:-1200%} 86.67%{left:-1300%} 91.11%{left:-1300%} 93.33%{left:-1400%} 97.78%{left:-1400%} }
+@-webkit-keyframes wsBasic{0%{left:-0%} 4.44%{left:-0%} 6.67%{left:-100%} 11.11%{left:-100%} 13.33%{left:-200%} 17.78%{left:-200%} 20%{left:-300%} 24.44%{left:-300%} 26.67%{left:-400%} 31.11%{left:-400%} 33.33%{left:-500%} 37.78%{left:-500%} 40%{left:-600%} 44.44%{left:-600%} 46.67%{left:-700%} 51.11%{left:-700%} 53.33%{left:-800%} 57.78%{left:-800%} 60%{left:-900%} 64.44%{left:-900%} 66.67%{left:-1000%} 71.11%{left:-1000%} 73.33%{left:-1100%} 77.78%{left:-1100%} 80%{left:-1200%} 84.44%{left:-1200%} 86.67%{left:-1300%} 91.11%{left:-1300%} 93.33%{left:-1400%} 97.78%{left:-1400%} }
 
+#wowslider-container1 .ws_bullets  a img{
+	text-indent:0;
+	display:block;
+	bottom:16px;
+	left:-32px;
+	visibility:hidden;
+	position:absolute;
+    border: 5px solid #FFFFFF;
+	max-width:none;
+}
+#wowslider-container1 .ws_bullets a:hover img{
+	visibility:visible;
+}
+
+#wowslider-container1 .ws_bulframe div div{
+	height:48px;
+	overflow:visible;
+	position:relative;
+}
+#wowslider-container1 .ws_bulframe div {
+	left:0;
+	overflow:hidden;
+	position:relative;
+	width:64px;
+	background-color:#DEDEDE;
+}
+#wowslider-container1  .ws_bullets .ws_bulframe{
+	display:none;
+	bottom:15px;
+	overflow:visible;
+	position:absolute;
+	cursor:pointer;
+    border: 5px solid #FFFFFF;
+}
+#wowslider-container1 .ws_bulframe span{
+	display:block;
+	position:absolute;
+	bottom:-11px;
+	margin-left:-7px;
+	left:32px;
+	background:url(./triangle.png);
+	width:13px;
+	height:7px;
+}

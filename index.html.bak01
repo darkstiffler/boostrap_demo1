@@ -30,6 +30,13 @@
 		<script type="text/javascript" src="engine1//jquery.js"></script>
 	<!-- End WOWSlider.com HEAD section -->
 
+
+
+<!-- Start WOWSlider.com HEAD section -->
+	<link rel="stylesheet" type="text/css" href="engine1//style.css" media="screen" />
+	<script type="text/javascript" src="engine1//jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
 </head>
 <body>
 	<div id="navigation">
@@ -54,7 +61,7 @@
 	</div>
 	<div id="slider"></div>
 	<div class="footer-special">
-		<p>This is a custom built site by <a href="http://egsd.co">EGSD</a>&copy; 2013 All rights reserved.</p>
+		<p>Site built by <a href="http://egsd.co">EGSD</a>&copy; 2013 All rights reserved.</p>
 	</div>
 </body>
 </html>

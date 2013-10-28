@@ -18,4 +18,4 @@ function ws_kenburns(q,k,d){var f=jQuery;var b=document.createElement("canvas").
 // Obfuscated by Javascript Obfuscator
 // http://javascript-source.com
 //***********************************************
-jQuery("#wowslider-container1").wowSlider({effect:"kenburns",prev:"",next:"",duration:34*100,delay:47*100,width:640,height:360,autoPlay:true,playPause:false,stopOnHover:false,loop:false,bullets:true,caption:false,captionEffect:"slide",controls:true,onBeforeStep:function(i,c){return (i+1 + Math.floor((c-1)*Math.random()))},images:0});
+jQuery("#wowslider-container1").wowSlider({effect:"kenburns",prev:"",next:"",duration:25*100,delay:50*100,width:640,height:480,autoPlay:true,playPause:false,stopOnHover:false,loop:false,bullets:0,caption:false,captionEffect:"slide",controls:true,onBeforeStep:function(i,c){return (i+1 + Math.floor((c-1)*Math.random()))},images:0});

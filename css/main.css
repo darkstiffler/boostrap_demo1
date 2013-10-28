@@ -64,11 +64,16 @@ body {
 	margin-top: 10px;
 	margin-right: 20px;
 }
+#gallery {
+	position: relative;
+	top: 80px;
+}
 .images {
-	height: 600px;
+	height: 500px;
 	margin: 0 auto;
 	overflow: scroll;
-	width: 600px;
+	border-radius: 10px;
+	width: 80%;
 	border: 2px solid black;
 }
 .logo h1 {
